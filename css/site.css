@@ -1,8 +1,12 @@
 :root {
-    --cf-dark: #212121;
-    --cf-light: #ebebeb;
-    --cf-darkblue: #00223d;
-    --cf-highlight: #fae100;
+    --tf-dark: #212121;
+    --tf-light: #ebebeb;
+    --tf-darkblue: #00223d;
+    --tf-highlight: #fae100;
+
+    /* fonts */
+    --tf-body-font: 'Roboto', sans-serif;
+
 }
 
 
@@ -17,13 +21,53 @@ body {
     background-image: url("/img/LandingPage_1920.png");
     background-position: top right;
     background-repeat: no-repeat;
+    font-family: var(--tf-body-font);
 }
 
 .content {
     flex: 1 0 auto;
 }
 
-.footer {
-    flex-shrink: 0;
+
+.mainTitle {
+    text-transform: uppecase;
 }
 
+.footer {
+    flex-shrink: 0;
+    font
+}
+
+/* # region -----MEDIA QUERIES----- */
+
+@media (min-width: 575.98px) {
+    .mainTitle {
+        font-size: 7rem;
+        line-height: 5.5rem;
+        text-transform: uppercase;        
+    }
+
+    .subTitle {
+        font-size: 1.7rem;
+        line-height: 1.2rem;
+        letter-spacing: .18rem;
+        text-transform: uppercase;
+
+
+    }
+
+}
+
+
+@media (min-width: 767.98px) {}
+
+
+@media (min-width: 991.98px) {}
+
+
+@media (min-width: 1199.98px) {}
+
+
+@media (min-width: 1399.98px) {}
+
+/* # endregion ----MEDIA QUERIES */
