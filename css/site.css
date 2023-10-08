@@ -5,7 +5,7 @@
     --tf-highlight: #fae100;
 
     /* fonts */
-    --tf-title-font: 'Bebas Neue', sans-serif;
+    --tf-title-font: 'Racing Sans One', sans-serif;
     --tf-subtitle-font: 'Fira Sans', sans-serif;
     --tf-heading-font: 'Bebas Neue', sans-serif;
     --tf-body-font: 'Roboto', sans-serif;
@@ -19,7 +19,7 @@ body {
     /* background-image: url("/img/LandingPage_1920.png"); */
     background-position: top right;
     background-repeat: no-repeat;
-    font-family: var(--tf-body-font);
+    /* font-family: var(--tf-body-font); */
     color: var(--tf-light);
 }
 
@@ -69,16 +69,22 @@ a:hover {}
     align-items: center;
 }
 
+.body {
+    font-family: var(--tf-body-font);
+}
 
 .mainTitle {
 
+    /* font-family: var(--tf-subtitle-font); */
     font-family: var(--tf-title-font);
+    text-rendering: ;
     text-transform: uppercase;
     font-size: 3rem;
     line-height: 3rem;
 }
 
 .subTitle {
+    font-family: var(--tf-subtitle-font);
     text-transform: uppercase;
     font-size: 1.5rem;
     line-height: 1.75rem;
@@ -103,9 +109,14 @@ a:hover {}
 }
 
 
+nav.navbar {
+    color: var(--tf-light);
+    z-index: 2;
+}
 
 
-.footer {
+
+footer.fixed-bottom {
     flex-shrink: 0;
     color: var(--tf-light);
 }
