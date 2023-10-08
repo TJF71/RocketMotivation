@@ -65,8 +65,8 @@ a:hover {}
     height: 100%;
     width: 100%;
     display: flex;
-    justify-content: start;
-    align-items: center;
+    justify-content: start; 
+    /* align-items: center */
 }
 
 .body {
@@ -79,15 +79,15 @@ a:hover {}
     font-family: var(--tf-title-font);
     text-rendering: ;
     text-transform: uppercase;
-    font-size: 3rem;
-    line-height: 3rem;
+    /* font-size: 3rem;
+    line-height: 3rem; */
 }
 
 .subTitle {
     font-family: var(--tf-subtitle-font);
     text-transform: uppercase;
-    font-size: 1.5rem;
-    line-height: 1.75rem;
+    /* font-size: 1.5rem;
+    line-height: 1.75rem; */
 
 }
 
@@ -126,9 +126,36 @@ footer.fixed-bottom {
 
 @media (min-width: 575.98px) {
     .mainTitle {
-        font-size: 7rem;
-        line-height: 5.5rem;
+        font-size: 3rem;
+        line-height: 2.5rem;
+        letter-spacing: .18rem;
 
+
+    }
+
+    .subTitle {
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+        letter-spacing: .18rem;
+    }
+
+    #home {
+        background-image: url(/img/LandingPage_576.png);
+    }    
+
+    #homeCover {
+        align-items: end;
+    }
+
+}
+
+
+
+@media (min-width: 767.98px) {
+    .mainTitle {
+        font-size: 4rem;
+        line-height: 5.5rem;
+        letter-spacing: .18rem;
 
     }
 
@@ -139,39 +166,94 @@ footer.fixed-bottom {
     }
 
     #home {
-        background-image: url(/img/LandingPage_576.png);
-    }
-}
-
-
-
-@media (min-width: 767.98px) {
-    #home {
         background-image: url(/img/LandingPage_768.png);
     }
+        
+    #homeCover {
+        align-items: center
+    }
+
 }
 
 
 @media (min-width: 991.98px) {
+    .mainTitle {
+        font-size: 5rem;
+        line-height: 5.5rem;
+        letter-spacing: .18rem;
+
+    }
+
+    .subTitle {
+        font-size: 1.7rem;
+        line-height: 1.2rem;
+        letter-spacing: .18rem;
+    }
+    
+
     #home {
         background-image: url(/img/LandingPage_992.png);
     }
+        
+    #homeCover {
+        align-items: center
+    }
+
 }
 
 
 @media (min-width: 1199.98px) {
+    .mainTitle {
+        font-size: 6rem;
+        line-height: 5.5rem;
+        letter-spacing: .18rem;
+
+    }
+
+    .subTitle {
+        font-size: 1.7rem;
+        line-height: 1.2rem;
+        letter-spacing: .18rem;
+    }
+    
+
     #home {
         background-image: url(/img/LandingPage_1200.png);
     }
+
+    #homeCover {
+        align-items: center
+    }
+
+
 }
 
 
 
 
 @media (min-width: 1399.98px) {
+    .mainTitle {
+        font-size: 6rem;
+        line-height: 5.5rem;
+        letter-spacing: .18rem;
+
+    }
+
+    .subTitle {
+        font-size: 1.7rem;
+        line-height: 1.2rem;
+        letter-spacing: .18rem;
+    }
+    
+
     #home {
         background-image: url(/img/LandingPage_1400.png);
     }
+
+    #homeCover {
+        align-items: center
+    }
+
 }
 
 
