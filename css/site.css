@@ -5,6 +5,9 @@
     --tf-highlight: #fae100;
 
     /* fonts */
+    --tf-title-font: 'Bebas Neue', sans-serif;
+    --tf-subtitle-font: 'Fira Sans', sans-serif;
+    --tf-heading-font: 'Bebas Neue', sans-serif;
     --tf-body-font: 'Roboto', sans-serif;
 
 }
@@ -13,7 +16,7 @@
 body {
     display: flex;
     flex-direction: column;
-    background-image: url("/img/LandingPage_1920.png");
+    /* background-image: url("/img/LandingPage_1920.png"); */
     background-position: top right;
     background-repeat: no-repeat;
     font-family: var(--tf-body-font);
@@ -25,9 +28,7 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-
-}
+h6 {}
 
 html,
 body {
@@ -35,41 +36,47 @@ body {
 
 }
 
-section{
+section {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     width: 40%;
 }
 
 
-a {
+a {}
 
-}
-
-a:hover {
-
-}
+a:hover {}
 
 
 /* REGOIN HOME SECTION */
 
 #home {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+    position: relative;
 
 }
 
 #homeCover {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
     justify-content: start;
+    align-items: center;
 }
 
 
 .mainTitle {
+
+    font-family: var(--tf-title-font);
     text-transform: uppercase;
-    display: flex;
     font-size: 3rem;
     line-height: 3rem;
+
 
 }
 
@@ -77,7 +84,8 @@ a:hover {
     text-transform: uppercase;
     font-size: 1.5rem;
     line-height: 1.75rem;
-} 
+
+}
 
 /* END HOME REGION */
 
@@ -86,15 +94,15 @@ a:hover {
 }
 
 
-.btn-primary {
+.btn-warning {
     --bs-btn-bg: var(--tf-theme-600);
     --bs-btn-border-color: var(--tf-theme-600);
     --bs-btn-hover-bg: var(--tf-theme-700);
     --bs-btn-hover-border-color: var(--tf-theme-700);
     --bs-btn-active-bg: var(--tf-theme-800);
     --bs-btn-active-border-color: var(--tf--theme-800);
-}
 
+}
 
 
 
@@ -111,30 +119,53 @@ a:hover {
     .mainTitle {
         font-size: 7rem;
         line-height: 5.5rem;
-    
+
+
     }
 
     .subTitle {
         font-size: 1.7rem;
         line-height: 1.2rem;
         letter-spacing: .18rem;
-
-
-
     }
 
+    #home {
+        background-image: url(/img/LandingPage_576.png);
+    }
 }
 
 
-@media (min-width: 767.98px) {}
+
+@media (min-width: 767.98px) {
+    #home {
+        background-image: url(/img/LandingPage_768.png);
+    }
+}
 
 
-@media (min-width: 991.98px) {}
+@media (min-width: 991.98px) {
+    #home {
+        background-image: url(/img/LandingPage_992.png);
+    }
+}
 
 
-@media (min-width: 1199.98px) {}
+@media (min-width: 1199.98px) {
+    #home {
+        background-image: url(/img/LandingPage_1200.png);
+    }
+}
 
 
-@media (min-width: 1399.98px) {}
+
+
+@media (min-width: 1399.98px) {
+    #home {
+        background-image: url(/img/LandingPage_1400.png);
+    }
+}
+
+
+
 
 /* # endregion ----MEDIA QUERIES */
