@@ -17,10 +17,13 @@ body {
     display: flex;
     flex-direction: column;
     background-image: url("/img/LandingPage_576.png");
-    background-position: top right;
+    background-position: top left;
     background-repeat: no-repeat;
+    background-size: cover;
     /* font-family: var(--tf-body-font); */
     color: var(--tf-light);
+    position: relative;
+
 }
 
 h1,
@@ -39,8 +42,8 @@ body {
 section {
     min-height: 100vh;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: center;
+    justify-content: end;
     /* width: 40%; */
 }
 
@@ -48,7 +51,6 @@ section {
 a {}
 
 a:hover {}
-
 
 /* REGOIN HOME SECTION */
 
@@ -65,7 +67,7 @@ a:hover {}
     height: 100%;
     width: 100%;
     display: flex;
-    align-items: end;
+    align-items: start;
     justify-content: center; 
     /* align-items: center */
 }
@@ -109,7 +111,6 @@ a:hover {}
 
 }
 
-
 nav.navbar {
     color: var(--tf-light);
     z-index: 2;
@@ -152,6 +153,7 @@ footer.fixed-bottom {
 
     #homeCover {
         align-items: end;
+    
     }
 
 }
