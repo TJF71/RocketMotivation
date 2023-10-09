@@ -114,7 +114,13 @@ nav.navbar {
     z-index: 2;
 }
 
+.section-page:nth-child(odd) {
+    background-color: var(--tf-darkblue);
+}
 
+.section-page:nth-child(even) {
+    background-color: var(--tf-darkblue);
+}
 
 footer.fixed-bottom {
     flex-shrink: 0;
