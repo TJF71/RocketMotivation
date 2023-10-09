@@ -138,23 +138,17 @@ footer.fixed-bottom {
         font-size: 3rem;
         line-height: 2.5rem;
         letter-spacing: .18rem;
-
-
     }
-
     .subTitle {
         font-size: 1.2rem;
         line-height: 1.2rem;
         letter-spacing: .18rem;
     }
-
     #home {
         background-image: url(/img/LandingPage_576.png);
     }    
-
     #homeCover {
         align-items: end;
-    
     }
 
 }
@@ -164,24 +158,19 @@ footer.fixed-bottom {
         font-size: 4rem;
         line-height: 5.5rem;
         letter-spacing: .18rem;
-
     }
-
     .subTitle {
         font-size: 1.7rem;
         line-height: 1.2rem;
         letter-spacing: .18rem;
     }
-
     #home {
         background-image: url(/img/LandingPage_768.png);
     }
-        
     #homeCover {
         align-items: center;
         justify-content: start;
     }
-
 }
 
 @media (min-width: 991.98px) {
@@ -189,24 +178,19 @@ footer.fixed-bottom {
         font-size: 5rem;
         line-height: 5.5rem;
         letter-spacing: .18rem;
-
     }
-
     .subTitle {
         font-size: 1.7rem;
         line-height: 1.2rem;
         letter-spacing: .18rem;
     }
-   
     #home {
         background-image: url(/img/LandingPage_768.png);
     }
-        
     #homeCover {
         align-items: center;
         justify-content: start; 
     }
-
 }
 
 
@@ -215,26 +199,19 @@ footer.fixed-bottom {
         font-size: 5rem;
         line-height: 5.5rem;
         letter-spacing: .18rem;
-
     }
-
     .subTitle {
         font-size: 1.7rem;
         line-height: 1.2rem;
         letter-spacing: .18rem;
     }
-    
-
     #home {
         background-image: url(/img/LandingPage_768.png);
     }
-
     #homeCover {
         align-items: center;
         justify-content: start; 
     }
-
-
 }
 
 
@@ -243,28 +220,20 @@ footer.fixed-bottom {
         font-size: 5rem;
         line-height: 5.5rem;
         letter-spacing: .18rem;
-
     }
-
     .subTitle {
         font-size: 1.7rem;
         line-height: 1.2rem;
         letter-spacing: .18rem;
     }
-    
-
     #home {
         background-image: url(/img/LandingPage_1400.png);
     }
-
     #homeCover {
 
         align-items: center;
         justify-content: start;
-
-
     }
-
 }
 
 
