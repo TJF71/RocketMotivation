@@ -16,7 +16,7 @@
 body {
     display: flex;
     flex-direction: column;
-    background-image: url("/img/LandingPage_576.png");
+    /* background-image: url("/img/LandingPage_576.png"); */
     background-position: top left;
     background-repeat: no-repeat;
     background-size: cover;
@@ -44,7 +44,7 @@ section {
     display: flex;
     flex-direction: center;
     justify-content: end;
-    /* width: 40%; */
+
 }
 
 
@@ -55,6 +55,7 @@ a:hover {}
 /* REGOIN HOME SECTION */
 
 #home {
+    background-image: url("/img/LandingPage_576.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top left;
@@ -67,7 +68,7 @@ a:hover {}
     height: 100%;
     width: 100%;
     display: flex;
-    align-items: start;
+    align-items: end;
     justify-content: center; 
     /* align-items: center */
 }
@@ -158,8 +159,6 @@ footer.fixed-bottom {
 
 }
 
-
-
 @media (min-width: 767.98px) {
     .mainTitle {
         font-size: 4rem;
@@ -185,8 +184,33 @@ footer.fixed-bottom {
 
 }
 
-
 @media (min-width: 991.98px) {
+    .mainTitle {
+        font-size: 5rem;
+        line-height: 5.5rem;
+        letter-spacing: .18rem;
+
+    }
+
+    .subTitle {
+        font-size: 1.7rem;
+        line-height: 1.2rem;
+        letter-spacing: .18rem;
+    }
+   
+    #home {
+        background-image: url(/img/LandingPage_768.png);
+    }
+        
+    #homeCover {
+        align-items: center;
+        justify-content: start; 
+    }
+
+}
+
+
+@media (min-width: 1199.98px) {
     .mainTitle {
         font-size: 5rem;
         line-height: 5.5rem;
@@ -202,34 +226,7 @@ footer.fixed-bottom {
     
 
     #home {
-        background-image: url(/img/LandingPage_992.png);
-    }
-        
-    #homeCover {
-        align-items: center;
-        justify-content: start; 
-    }
-
-}
-
-
-@media (min-width: 1199.98px) {
-    .mainTitle {
-        font-size: 6rem;
-        line-height: 5.5rem;
-        letter-spacing: .18rem;
-
-    }
-
-    .subTitle {
-        font-size: 1.7rem;
-        line-height: 1.2rem;
-        letter-spacing: .18rem;
-    }
-    
-
-    #home {
-        background-image: url(/img/LandingPage_1200.png);
+        background-image: url(/img/LandingPage_768.png);
     }
 
     #homeCover {
@@ -239,13 +236,11 @@ footer.fixed-bottom {
 
 
 }
-
-
 
 
 @media (min-width: 1399.98px) {
     .mainTitle {
-        font-size: 6rem;
+        font-size: 5rem;
         line-height: 5.5rem;
         letter-spacing: .18rem;
 
@@ -263,8 +258,11 @@ footer.fixed-bottom {
     }
 
     #homeCover {
+
         align-items: center;
-        justify-content: start; 
+        justify-content: start;
+
+
     }
 
 }
