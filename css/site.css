@@ -16,7 +16,7 @@
 body {
     display: flex;
     flex-direction: column;
-    /* background-image: url("/img/LandingPage_1920.png"); */
+    background-image: url("/img/LandingPage_576.png");
     background-position: top right;
     background-repeat: no-repeat;
     /* font-family: var(--tf-body-font); */
@@ -65,7 +65,8 @@ a:hover {}
     height: 100%;
     width: 100%;
     display: flex;
-    justify-content: start; 
+    align-items: end;
+    justify-content: center; 
     /* align-items: center */
 }
 
@@ -176,7 +177,8 @@ footer.fixed-bottom {
     }
         
     #homeCover {
-        align-items: center
+        align-items: center;
+        justify-content: start;
     }
 
 }
@@ -202,7 +204,8 @@ footer.fixed-bottom {
     }
         
     #homeCover {
-        align-items: center
+        align-items: center;
+        justify-content: start; 
     }
 
 }
@@ -228,7 +231,8 @@ footer.fixed-bottom {
     }
 
     #homeCover {
-        align-items: center
+        align-items: center;
+        justify-content: start; 
     }
 
 
@@ -257,7 +261,8 @@ footer.fixed-bottom {
     }
 
     #homeCover {
-        align-items: center
+        align-items: center;
+        justify-content: start; 
     }
 
 }
